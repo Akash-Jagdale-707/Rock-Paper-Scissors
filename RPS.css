@@ -1,0 +1,17 @@
+.cell {
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.cell-images {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.cell-images img:hover {
+    box-shadow: 0px 10px 50px blue;
+}
